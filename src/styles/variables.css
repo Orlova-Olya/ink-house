@@ -1,0 +1,15 @@
+html {
+  --white: #ffffff;
+  --white_fake: #f4f6f5;
+  --gray: #86928b;
+  --black_fake: #2c2d35;
+  --green: #598d66;
+  --green_dark: #376b44;
+  --green_light: #d4e8d9;
+  --green_very-light: #e1ede6;
+  --green_super-light: #c3d1c6;
+  --yellow: #eedb6d;
+  --yellow_light: #faeb97;
+  --yellow_dark: #eedb6d;
+  --yellow_very-dark: #a38314;
+}

@@ -1,0 +1,11 @@
+$desktop: "(min-width: 1440px)";
+$tablet: "(max-width: 1439px) AND (min-width: 768px)";
+$small-tablet: "(max-width: 767px) AND (min-width: 576px)";
+$mobile: "(max-width: 575px)";
+// 
+$not-desktop: "(max-width: 1439px)";
+$not-mobile: "(min-width: 576px)";
+// 
+$desktop-and-tablet: "(min-width: 768px)";
+$tablet-amd-small-tablet: "(max-width: 1439px) AND (min-width: 576px)";
+$small-tablet-and-mobile: "(max-width: 767px)";

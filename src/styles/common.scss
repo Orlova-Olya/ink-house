@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  word-break: break-word;
+
+  color: var(--black_fake);
+  border: none;
+
+  font-family: "Raleway";
+
+  &:not(.bold) {
+    font-weight: 400;
+  }
+  &.bold {
+    font-weight: 600;
+  }
+}
+
+html {
+  height: 100%;
+
+  background-color: var(--white_fake);
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+
+//Отступы
+:root {
+  @media #{$desktop} {
+    --padding_x: calc((100% - 1110px)/2);
+  }
+  @media #{$tablet} {
+    --padding_x: 39px;
+  }
+  @media #{$small-tablet} {
+    --padding_x: 33px;
+  }
+  @media #{$mobile} {
+    --padding_x: 15px;
+  }
+
+  @media #{$desktop} {
+    --header-height: 100px;
+  }
+  @media #{$tablet} {
+    --header-height: 100px;
+  }
+  @media #{$small-tablet} {
+    --header-height: 123px;
+  }
+  @media #{$mobile} {
+    --header-height: 130px;
+  }
+}
+
+.padding-x-classic {
+  padding-right: var(--padding_x);
+  padding-left: var(--padding_x);
+}
+.padding-y-classic {
+  @media #{$not-mobile} {
+    padding-top: calc(var(--header-height) + 40px);
+    padding-bottom: 48px;
+  }
+  @media #{$mobile} {
+    padding-top: calc(var(--header-height) + 28px);
+    padding-bottom: 32px;
+  }
+}
+
+.h1 {
+  @media #{$desktop} {
+    font-size: 60px;
+  }
+  @media #{$tablet} {
+    font-size: 40px;
+  }
+  @media #{$small-tablet} {
+    font-size: 36px;
+  }
+  @media #{$mobile} {
+    font-size: 30px;
+  }
+}
+.h2 {
+  @media #{$desktop} {
+    font-size: 40px;
+  }
+  @media #{$tablet} {
+    font-size: 30px;
+  }
+  @media #{$small-tablet} {
+    font-size: 24px;
+  }
+  @media #{$mobile} {
+    font-size: 24px;
+  }
+}
+
+.text {
+  line-height: 150%;
+
+  @media #{$desktop-and-tablet} {
+    font-size: 18px;
+  }
+  @media #{$small-tablet} {
+    font-size: 16px;
+  }
+  @media #{$mobile} {
+    font-size: 14px;
+  }
+}
+
+.link {
+  transition-duration: 100ms;
+  text-decoration: underline;
+
+  text-decoration-color: transparent;
+
+  &:hover,
+  &:focus-within {
+    text-decoration-color: var(--green_dark);
+  }
+}

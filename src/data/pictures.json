@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "countryId": "france",
+    "authorId": 1,
+    "name": "Охота Амура",
+    "url": "../images/pictures/1.jpg",
+    "info": "Холст, масло (50х80)",
+    "cost": 14500
+  },
+  {
+    "id": 2,
+    "countryId": "france",
+    "authorId": 1,
+    "name": "Дама с собачкой",
+    "url": "../images/pictures/2.jpg",
+    "info": "Акрил, бумага (50х80)",
+    "cost": 16500
+  },
+  {
+    "id": 3,
+    "countryId": "france",
+    "authorId": 1,
+    "name": "Процедура",
+    "url": "../images/pictures/3.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 20000
+  },
+  {
+    "id": 4,
+    "countryId": "france",
+    "authorId": 1,
+    "name": "Роза",
+    "url": "../images/pictures/4.jpg",
+    "info": "Бумага, акрил (50х80)",
+    "cost": 12000
+  },
+  {
+    "id": 5,
+    "countryId": "france",
+    "authorId": 2,
+    "name": "Птичья трапеза",
+    "url": "../images/pictures/5.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 22500
+  },
+  {
+    "id": 6,
+    "countryId": "france",
+    "authorId": 2,
+    "name": "Пейзаж с рыбой",
+    "url": "../images/pictures/6.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 20000
+  },
+
+  {
+    "id": 7,
+    "countryId": "germany",
+    "authorId": 3,
+    "name": "Над городом",
+    "url": "../images/pictures/7.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 16000
+  },
+  {
+    "id": 8,
+    "countryId": "germany",
+    "authorId": 4,
+    "name": "Птенцы",
+    "url": "../images/pictures/8.jpg",
+    "info": "Холст, масло (50х80)",
+    "cost": 14500
+  },
+  {
+    "id": 9,
+    "countryId": "germany",
+    "authorId": 4,
+    "name": "Среди листьев",
+    "url": "../images/pictures/9.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 20000
+  },
+  {
+    "id": 10,
+    "countryId": "germany",
+    "authorId": 4,
+    "name": "Яркая птица",
+    "url": "../images/pictures/10.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 13000
+  },
+  {
+    "id": 11,
+    "countryId": "germany",
+    "authorId": 4,
+    "name": "Дятлы",
+    "url": "../images/pictures/11.jpg",
+    "info": "Бумага, акрил (50х80)",
+    "cost": 20000
+  },
+  {
+    "id": 12,
+    "countryId": "germany",
+    "authorId": 4,
+    "name": "Большие воды",
+    "url": "../images/pictures/12.jpg",
+    "info": "Бумага, акрил (50х80)",
+    "cost": 23000
+  },
+
+  {
+    "id": 13,
+    "countryId": "england",
+    "authorId": 5,
+    "name": "Дикий зверь",
+    "url": "../images/pictures/13.jpg",
+    "info": "Акварель, бумага (50х80) ",
+    "cost": 19500
+  },
+  {
+    "id": 14,
+    "countryId": "england",
+    "authorId": 5,
+    "name": "Скалистый берег",
+    "url": "../images/pictures/14.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 17500
+  },
+  {
+    "id": 15,
+    "countryId": "england",
+    "authorId": 6,
+    "name": "Река и горы",
+    "url": "../images/pictures/15.jpg",
+    "info": "Акварель, бумага (50х80)",
+    "cost": 20500
+  },
+  {
+    "id": 16,
+    "countryId": "england",
+    "authorId": 6,
+    "name": "Белый попугай",
+    "url": "../images/pictures/16.jpg",
+    "info": "Цветная литография (40х60)",
+    "cost": 15500
+  },
+  {
+    "id": 17,
+    "countryId": "england",
+    "authorId": 6,
+    "name": "Ночная рыба",
+    "url": "../images/pictures/17.jpg",
+    "info": "Бумага, акрил (50х80) ",
+    "cost": 12500
+  },
+  {
+    "id": 18,
+    "countryId": "england",
+    "authorId": 6,
+    "name": "Рыжий кот",
+    "url": "../images/pictures/18.jpg",
+    "info": "Цветная литография (40х60) ",
+    "cost": 21000
+  }
+]
